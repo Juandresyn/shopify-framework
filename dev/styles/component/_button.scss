@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: $global-size-base ($global-size-base * 1.75);
+  text-align: center;
+  text-decoration: none;
+  border-radius: $global-radius;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-appearance: none;
+  &.btn--primary {
+    color: $color-white;
+    background-color: $color-primary;
+  }
+  &.btn--secondary {
+    color: $color-black;
+    background-color: $color-secondary;
+  }
+  &.text-link {
+    border: 0 none;
+    background: none;
+    padding: 0;
+    user-select: text;
+    color: $global-text-color;
+  }
+}

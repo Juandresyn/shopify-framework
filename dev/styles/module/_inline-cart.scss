@@ -1,0 +1,22 @@
+// Inline Cart
+//
+// Container for an inline cart.
+//
+// Markup:
+// <section class="inline-cart" data-inline-cart>
+//   <div data-cart-contents></div>
+// </section>
+//
+// Styleguide Components.Inline Cart
+.inline-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: transform 0.3s;
+  transform: translateY(100%);
+
+  &.is-active {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "directory": "./",
+  "scripts": {
+    "postinstall": "sudo sh ./.build/postinstall.sh"
+  }
+}

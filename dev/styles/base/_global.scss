@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  color: $global-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-weight: normal;
+}
+
+dd,
+ol,
+ul {
+  margin-left: $global-spacing-unit;  // Consistent indentation for lists.
+}
+
+a {
+  color: $color-text-primary;
+  text-decoration: none;
+  background: transparent;
+  &:link {
+
+  }
+  &:visited {
+
+  }
+  &:hover {
+
+  }
+  &:active {
+
+  }
+}
+
+input {
+  &:focus::-webkit-input-placeholder {
+    color: transparent !important;
+  }
+
+  &:focus:-moz-placeholder {
+    color: transparent !important;
+  }
+
+  &:focus::-moz-placeholder {
+    color: transparent !important;
+  }
+
+  &:focus:-ms-input-placeholder {
+    color: transparent !important;
+  }
+
+  &[type=number]::-webkit-inner-spin-button,
+  &[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+  }
+}
