@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://snapsuits.git.beanstalkapp.com/build-tool.git"
+    "url": "https://github.com/Juandresyn/shopify-dev.git"
   },
   "dependencies": {
-    ".build": "https://snapsuits.git.beanstalkapp.com/build-tool.git"
+    ".build": "https://github.com/Juandresyn/shopify-dev.git"
   },
   "ignore": [
     "**/.*",
