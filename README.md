@@ -85,3 +85,6 @@ From the command line run `npm install`. After the installation completes, you'l
 ### vendor
 - Any required JavaScript libraries (not including jQuery) or vendor css files that will be concatenated into `vendor.js` and `vendor.css` respectively.
 -
+
+### Requires
+- Bower 1.3.12
